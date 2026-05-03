@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/* invalidId.css */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ffecd2,#fcb69f);
+}
+
+.container{
+    width:420px;
+    background:white;
+    padding:45px;
+    border-radius:22px;
+    text-align:center;
+    box-shadow:0 6px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    color:#d63031;
+    font-size:34px;
+    margin-bottom:18px;
+}
+
+h3{
+    color:#555;
+    font-size:20px;
+    margin-bottom:30px;
+    font-weight:normal;
+}
+
+button{
+    padding:14px 28px;
+    border:none;
+    border-radius:10px;
+    background:#0984e3;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0652DD;
+    transform:translateY(-2px);
+}
+
+a{
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Invalid Id </h1>
+<h3>Kindly Enter valid Id</h3>
+<a href='removepatient'><button>Try Again</button></a>
+</div>
+</body>
+</html>

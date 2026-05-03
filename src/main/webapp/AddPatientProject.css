@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* AddPatient.css */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#89f7fe,#66a6ff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+form{
+    background:white;
+    width:380px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#2d3436;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#2f3640;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    font-size:15px;
+    transition:0.3s;
+    margin:2px 0 10px 0;
+}
+
+input:focus{
+    border-color:#0984e3;
+    box-shadow:0 0 8px rgba(9,132,227,0.4);
+}
+
+button{
+    width:100%;
+    padding:14px;
+    margin-top:25px;
+    border:none;
+    border-radius:10px;
+    background:#0984e3;
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0652DD;
+}
